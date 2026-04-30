@@ -13,7 +13,7 @@ def configure_loopback(device):
         }
 
         commands = [
-            "interface loopback0",
+            "interface loopback1",
             f"ip address {device['loopback_ip']} {device['mask']}",
             "no shutdown"
         ]
