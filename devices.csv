@@ -1,0 +1,2 @@
+ip,device_type,username,password,hostname,loopback_ip,mask
+10.80.3.1,cisco_ios,admin,admin123,R1,10.0.0.1,255.255.255.255
